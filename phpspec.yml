@@ -1,0 +1,4 @@
+suites:
+  library_suite:
+    namespace: Yddph\L5-generators
+    psr4_prefix: Yddph\L5-generators
