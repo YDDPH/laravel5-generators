@@ -1,5 +1,7 @@
 # laravel5-generators
 
+[![Build Status](https://travis-ci.org/YDDPH/laravel5-generators.svg)](https://travis-ci.org/YDDPH/laravel5-generators)
+
 ## Generates the following using a single command
 - Migration
 - Model
