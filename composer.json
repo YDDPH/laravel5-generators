@@ -2,7 +2,7 @@
     "name": "yddph/l5-generators",
     "autoload": {
         "psr-4": {
-            "Yddph\\L5-generators\\": "src/"
+            "Yddph\\Generators\\": "src/"
         }
     },
     "require-dev": {
@@ -11,7 +11,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Yddph\\L5-generators\\Tests\\": "tests/"
+            "Yddph\\Generators\\Tests\\": "tests/"
         }
     }
 }

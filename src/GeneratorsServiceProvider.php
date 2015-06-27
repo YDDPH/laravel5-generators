@@ -1,6 +1,6 @@
 <?php
 
-namespace Yddph\L5;
+namespace Yddph\Generators;
 
 use Illuminate\Support\ServiceProvider;
 
