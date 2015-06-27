@@ -1,6 +1,6 @@
 # laravel5-generators
 
-## Generates the following in one command
+## Generates the following using a single command
 - Migration
 - Model
 - Repository
