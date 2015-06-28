@@ -1,17 +1,18 @@
 {
     "name": "yddph/l5-generators",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "JC Ricaro",
+        "email": "jcricaro@gmail.com"
+      }
+    ],
     "autoload": {
         "psr-4": {
             "Yddph\\Generators\\": "src/"
         }
     },
     "require-dev": {
-        "phpunit/phpunit": "4.*",
         "phpspec/phpspec": "~2.0"
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Yddph\\Generators\\Tests\\": "tests/"
-        }
     }
 }
