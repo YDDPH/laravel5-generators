@@ -41,12 +41,13 @@ class GenerateResourceCommand extends Command
      * @param Filesystem $filesystem
      * @param Composer $composer
      */
-    public function __construct(Filesystem $filesystem, Composer $composer)
+    public function __construct(Filesystem $filesystem, Composer $composer, MakeMigrationCommand $makeMigrationCommand)
     {
         parent::__construct();
 
         $this->files = $filesystem;
         $this->composer = $composer;
+        $this->makeMigrationCommand = $makeMigrationCommand;
     }
 
     /**
@@ -62,6 +63,41 @@ class GenerateResourceCommand extends Command
         //make controller
         //make command
         //make validations?
+    }
+
+    private function makeMigration()
+    {
+        $this->makeMigrationCommand($module, $migration, $params);
+    }
+
+    private function makeModel()
+    {
+
+    }
+
+    private function makeRepository()
+    {
+
+    }
+
+    private function makeCommand()
+    {
+
+    }
+
+    private function makeController()
+    {
+
+    }
+
+    public function makeRequest()
+    {
+        
+    }
+
+    private function makeTest()
+    {
+
     }
 
 }
